@@ -1,5 +1,6 @@
 import {Outlet,Link} from 'react-router-dom';
 import {ReactComponent as CompanyLogo} from '../../assests/crown.svg';
+import "./navigation.style.scss"
 const Navigation=()=>{
     return(
         <>
@@ -7,7 +8,7 @@ const Navigation=()=>{
             <Link className='logo-container' to="/">
                 <CompanyLogo className='logo'/>
             </Link>
-            <Link className='navigation-links-container'>
+            <Link className='nav-links-container'>
                 <Link className='nav-link' to="/shop">
                     Shop
                 </Link>
