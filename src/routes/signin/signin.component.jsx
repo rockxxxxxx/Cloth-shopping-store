@@ -1,3 +1,4 @@
+import Signup from '../../components/sugnup-form/signup.component';
 import {
     signInWithGooglePopup,
     createUserDocumentFromAuth,
@@ -14,6 +15,7 @@ import {
       <div>
         <h1>Sign In Page</h1>
         <button onClick={logGoogleUser}>Sign in with Google Popup</button>
+        <Signup/>
       </div>
     );
   };
